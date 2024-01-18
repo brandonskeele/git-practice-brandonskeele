@@ -1,0 +1,121 @@
+  198  git --version
+  208  git clone git@github.com:rhodes-byu/CS180.git
+  212  git clone git@github.com:rhodes-byu/CS180.git
+  220  git clone git@github.com:rhodes-byu/CS180.git
+  221  git clone git@github.com:rhodes-byu/CS180.git
+  222  git config --global user.name "Brandon Keele"
+  223  git config --global user.email "brandonskeele@gmail.com"
+  224  git config --global core.editor "code --wait"
+  225  git config --global init.defaultBranch main
+  231  git init
+  233  touch .gitignore
+  234  open .gitignore
+  235  cat .gitignore
+  236  git branch
+  237  git remote -v
+  247  open .gitignore
+  257  cat .gitignore
+  258  nano .gitignore
+  259  open .gitignore
+  260  code .gitignore
+  262  open .gitignore
+  263  cat .gitignore
+  264  git add .gitignore
+  265  git commit -m "Create .gitignore file"
+  266  git status
+  267  git log
+  271  cat .gitignore
+  272  git branch
+  273  git branch test-branch
+  274  git branch
+  275  git switch test-branch
+  276  git branch
+  277  git switch main
+  278  git merge test-branch
+  279  git branch -d test-branch
+  280  git branch
+  283  cd git-practice-brandonskeele
+  285  code .gitignore
+  287  git remote add origin git@github.com:brandonskeele/git-practice-brandonskeele.git\ngit branch -M main\ngit push -u origin main
+  290  git status
+  291  git add .
+  292  git status
+  293  git commit -m "Create new files"
+  294  git status
+  295  git log
+  298  git status
+  299  git add file_1.txt
+  300  git status
+  301  git commit -m "Added text to file_1.txt"
+  302  git status
+  303  git add file_2.txt
+  304  git commit -m "Added text to file_2.txt"
+  305  git log
+  309  cd git-practice-brandonskeele
+  310  git log
+  311  git log --oneline
+  314  git add Readme.md
+  315  git commit -m "Created a Readme.md file"
+  316  git log
+  317  git branch features
+  318  git switch features
+  319  git branch
+  320  git log
+  322  git add new_features.txt
+  323  git commit -m "Add empty file"
+  325  git add new_features.txt
+  326  git commit -m "Added text to new_features.txt"
+  327  git switch main
+  330  git branch
+  331  git add file_1.txt
+  332  git commit -m "Added new line of text to file_1.txt"
+  333  git merge features
+  334  git log
+  335  git branch
+  338  git add new_features.txt
+  339  git commit -m "Edited text in new_features.txt"
+  340  git switch features
+  342  git add new_features.txt
+  343  git commit -m "Edited text in new_feaures.txt on features branch"
+  344  git switch main
+  345  git merge features
+  347  git merge features
+  348  git branch
+  349  git add new_features.txt
+  350  git commit -m "Fixed merge conflict"
+  351  git merge features
+  352  git branch -d features
+  353  git push -u origin main
+  354  git status
+  356  git branch
+  357  git remote -v
+  359  git status
+  360  git add new_feature.txt
+  361  git status
+  362  git commit -m "Add text to new_feature.txt"
+  363  git status
+  364  git push
+  365  git status
+  366  git pull
+  368  git status
+  369  git log -oneline
+  370  git log --oneline
+  371  git log --oneline
+  373  git clone git@github.com:brandonskeele/git-practice-bkvalue.git
+  375  cd git-practice-bkvalue
+  376  git status
+  377  git branch feature-brandonskeele
+  378  git switch feature-brandonskeele
+  379  git branch
+  381  git add cloned.txt
+  382  touch .gitignore
+  383  code .gitignore
+  384  cat .gitignore
+  385  git add .gitignore
+  386  git commit -m "Added two files"
+  387  git status
+  388  git push origin feature-brandonskeele
+  390  cd git-practice-brandonskeele
+  391  git pull
+  393  git log --oneline gitlog.txt
+  394  git log --oneline > gitlog.txt

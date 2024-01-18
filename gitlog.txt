@@ -1,0 +1,17 @@
+ad5aca5 Merge pull request #1 from bkvalue/main
+d8d4647 Create and added text to cloned.txt
+a9bc889 Added another line to new_feature.txt
+788fb7e Added new line to new_feature.txt
+a7bfcd2 Add text to new_feature.txt
+c178551 Fixed merge conflict
+ca498b2 Edited text in new_feaures.txt on features branch
+62aef38 Edited text in new_features.txt
+20a505b Merge branch 'features'
+da13397 Added new line of text to file_1.txt
+6160baf Added text to new_features.txt
+3d7cc25 Add empty file
+e945485 Created a Readme.md file
+aebbbc2 Added text to file_2.txt
+3294cb0 Added text to file_1.txt
+395a61a Create new files
+cfad4a2 Create .gitignore file
