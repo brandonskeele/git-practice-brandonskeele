@@ -6,7 +6,7 @@ class Product:
 
 
     def discount_price(self, percentage):
-        return self.price - (self.price * percentage)
+        return self.price - (self.price * (percentage / 100))
     
 
     def change_price(self, new_price):
@@ -18,6 +18,6 @@ print(toy.id)
 print(toy.name)
 print(toy.price)
 
-print(toy.discount_price(0.20))
+print(toy.discount_price(20))
 toy.change_price(10.2)
 print(toy.price)
