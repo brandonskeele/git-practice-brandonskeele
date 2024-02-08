@@ -1,0 +1,18 @@
+import pandas as pd
+
+# example1 = pd.read_csv("example_csv.csv")
+# print(example1)
+
+# example2 = pd.read_csv("example_csv2.csv")
+
+# import ssl
+# ssl._create_default_https_context = ssl._create_unverified_context
+
+url = "https://en.wikipedia.org/wiki/List_of_Super_Bowl_champions"
+dfs = pd.read_html(url)
+
+for df in dfs:
+    print(df.shape)
+
+df = dfs[1]
+print(df)
