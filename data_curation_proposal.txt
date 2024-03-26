@@ -1,0 +1,29 @@
+For my research question, I am curious about the current leaderboard of home-runs hit by players in the MLB looks,
+as well as how the batting hand, height, and weight of these players affects the number of home-runs they have hit
+throughout their careers.
+
+While this data could be available from a wide variety of sources, I have decided to use web-scraping for this
+project to be able to practice my skills with web-scraping. I found a webpage that includes a list of the top 1000
+players on the leaderboard of home-runs hit as well as their ranking and number of home-runs. The webpage can be
+found at the following link: https://www.baseball-almanac.com/hitting/hihr1.shtml
+
+As I've been looking through the data, there are a few things that I will need to work through in order to collect
+data from this source. The data is initially stored in a table on the webpage which I will be able to navigate
+through to get player names, home-run totals, and rankings. The height, weight, and batting hand for each player
+can be found on an individual bio page about them. The name in the initial table links to the page for that player.
+As a result, I will be stepping onto each player's page and then back onto the main page. I haven't yet decided the
+way that I want to do this, but I have practiced clicking into them with selenium and then stepping back onto the
+main page. I will either step onto the player's page as I collect the data in their row and then go back to the main
+page and continue; open the player's page in a new tab, close the tab, and then return to the original tab to
+continue, or collect all of the information on the main page first while storing the individual links to the pages
+with more player information and then loop through the list and collect all of the additional information.
+
+I have written a script that can work to do this with the first option outlined above and have gotten it to work.
+That being said, it sometimes runs into errors which I believe are caused by the long loading times on this site.
+I will work to optimize the script, including potentially speeding it up and finding the best way to collect this
+data.
+
+The one other thing that I will need to work through (which I want to point out just to verify that I have thought
+through all of the steps that will be required) is that certain players have hit the same number of home-runs, and
+are thus the same ranking. When this occurs in this table, the ranking is only written out once and then subsequent
+players do not have a ranking listed. I will need to include code that can handle these cases.
